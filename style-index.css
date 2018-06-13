@@ -1,0 +1,228 @@
+@import url("https://use.typekit.net/kad2tdc.css");
+
+body {
+  color: #fff;
+  background: url(images/discovery-launch-liftoff-23764.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  font-family: divulge, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* Headings */
+
+h1 {
+  font-family: "nasalization", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FF9B6C;
+  text-transform: uppercase;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* Navbar */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-dark {
+  background-color: #0A1327;
+  font-size: 18px;
+}
+
+.fixed-top.scrolled {
+  background-color: #0A1327; !important;
+  transition: background-color 100ms linear;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-family: "nasalization", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FF9B6C;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #FF9B6C;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
+/* Links */
+
+a {
+  color: #FF9B6C;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Buttons */
+
+.btn-primary {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF9B6C;
+  border-radius: 0;
+  background-color: transparent;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-primary:hover {
+  border-color: #FF9B6C;
+  color: #0A1327;
+  background-color: #FF9B6C;
+}
+
+/* Header */
+
+.welcome-section {
+  background-color: rgba(0, 0, 0, 0.50);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Row */
+.row {
+  margin: 0;
+}
+
+/* Footer */
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #0A1327;
+}
+
+.footer-align {
+  padding-top: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer-icons a {
+  font-size: 30px;
+  color: #FF9B6C;
+  padding: 6px;
+}
+
+.fa {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  margin-top: 12px;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}
+
+/* Unsubscribe form - footer */
+
+input[type="email"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FF9B6C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="email"]:focus,
+select.form-control:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+}
+
+.unsubscribe_btn {
+  background-color: transparent;
+  border: none;
+  color: #FF9B6C;;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: 24px;
+  background-position: center center;
+  background-color: transparent;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.unsubscribe_btn:hover {
+  background-color: transparent;
+  color: #fff
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.fas {
+  color: #FF9B6C;
+}
+
+/* Large screens min width */
+
+@media (min-width: 1025px) {
+  .container-fluid {
+    width: 100%;
+    max-width: 1440px;
+  }
+}
