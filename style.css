@@ -1,0 +1,631 @@
+@import url("https://use.typekit.net/kad2tdc.css");
+
+body {
+  color: #fff;
+  background-color: #202737;
+  font-family: divulge, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* Headings */
+
+h1 {
+  font-family: "nasalization", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FF9B6C;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "nasalization", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FF9B6C;
+}
+
+#smallHeading {
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "nasalization", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FF9B6C;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* Navbar */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-dark {
+  background-color: #202737;
+  font-size: 18px;
+}
+
+.fixed-top.scrolled {
+  background-color: #0A1327; !important;
+  transition: background-color 100ms linear;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-family: "nasalization", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FF9B6C;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #FF9B6C;
+}
+
+ul.navbar-nav.mr-auto {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+ul.navbar-nav.ml-auto {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Buttons */
+
+.btn-primary {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF9B6C;
+  border-radius: 0;
+  background-color: transparent;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-primary:hover {
+  border-color: #FF9B6C;
+  color: #0A1327;
+  background-color: #FF9B6C;
+}
+
+.btn-primary-small {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF9B6C;
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn-primary-small:hover {
+  border-color: #FF9B6C;
+  color: #0A1327;
+  background-color: #FF9B6C;
+}
+
+.btn-danger {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  color: #000;
+  border-radius: 0;
+  background-color: transparent;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Links */
+
+a {
+  color: #FF9B6C;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Rows */
+
+.row-background-2 {
+  background-color: #0A1327;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Images */
+
+.img-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* List */
+
+ul {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Competition text decoration */
+.winner-info {
+  text-align: left;
+  display: inline-block;
+  list-style: circle;
+}
+
+/* About text decoration */
+.about-info {
+  text-align: left;
+  display: inline-block;
+}
+
+/* Form */
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FF9B6C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+
+}
+
+input[type="tel"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FF9B6C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="tel"]:focus,
+select.form-control:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+}
+
+input[type="email"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FF9B6C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="email"]:focus,
+select.form-control:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+}
+
+input[type="number"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FF9B6C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="number"]:focus,
+select.form-control:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+}
+
+.padding-left {
+  padding-left: 0;
+}
+
+.padding-right {
+  padding-right: 0;
+}
+
+#message {
+  border: 1px solid #FF9B6C;
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+}
+
+#age {
+  border: 1px solid #FF9B6C;
+  color: #fff;
+}
+
+/* Form - Radio buttons*/
+
+.radio-inline {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide default radio buttons */
+.radio-inline input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border: 1px solid #FF9B6C;
+  border-radius: 50%;
+}
+
+/* On mouse-over, transparent */
+.radio-inline:hover input ~ .checkmark {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Dot hidden when not checked */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show dot when checked */
+.radio-inline input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Dot styling */
+.radio-inline .checkmark:after {
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #FF9B6C;
+}
+
+/* Launch API box */
+
+.launchBox {
+  margin: 10px;
+  padding: 15px;
+  width: 285px;
+  height: 700px;
+  background-color: #0A1327;
+  display: inline-grid;
+  text-align: left;
+}
+
+.item_incomplete::before {
+  content: "Land success: \2716";
+  color: red;
+  font-size: 14px;
+
+}
+
+.item_completed::before {
+  content: "Land success: \2713";
+  color: limegreen;
+  font-size: 14px;
+}
+
+.patch-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Modal */
+
+.modal-content {
+  color: #000;
+}
+
+.fa-check-circle {
+  color: limegreen;
+  font-size: 3em !important;
+}
+
+
+/* form error */
+
+.error {
+  font-size: 12px;
+  color: grey;
+}
+
+/* Countdown Timer */
+
+#countdownTimer {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#countdownTimer > div{
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FF9B6C;
+  display: inline-block;
+}
+
+#countdownTimer div > span{
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #0A1327;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+  color: #0A1327;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #0A1327;
+}
+
+.footer-align {
+  padding-top: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer-icons a {
+  font-size: 30px;
+  color: #FF9B6C;
+  padding: 6px;
+}
+
+.fas {
+  color: #FF9B6C;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}
+
+/* Unsubscribe form - footer */
+
+.unsubscribe_btn {
+  background-color: transparent;
+  border: none;
+  color: #FF9B6C;;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: 24px;
+  background-position: center center;
+  background-color: transparent;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.unsubscribe_btn:hover {
+  background-color: transparent;
+  color: #fff
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+/* Fun facts */
+
+.list-item {
+  background-color: #0A1327;
+}
+
+.item-number {
+  font-size: 40px;
+  float: left;
+  text-align: center;
+  color: #FF9B6C;
+  min-width: 50px;
+  padding: 20px 0;
+}
+
+.item-text {
+  padding: 30px 20px 30px 60px;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
+/* Background images */
+
+.cover-bg-launches {
+  background: url(images/pexels-photo-586054.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+.cover-bg-contact {
+  background: url(images/flight-sky-earth-space.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+.cover-bg-funfacts {
+  background: url(images/pexels-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+.cover-bg-about1 {
+  background: url(images/pexels-photo-586079.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+.cover-bg-about2 {
+  background: url(images/2010_-_09_sx_9312_resize.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+.cover-bg-competition1 {
+  background: url(images/geometry_02_poidx-081116-399a8811_-_resize.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+.cover-bg-competition2 {
+  background: url(images/sky-earth-space-working.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+
+/* Quote */
+
+blockquote {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Large screens min width */
+
+@media (min-width: 1025px) {
+  .container-fluid {
+    width: 100%;
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 600px) {
+    .padding-right {
+      padding: 0;
+    }
+}
